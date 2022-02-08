@@ -1,0 +1,184 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+hr {
+  border: 1px dashed black;
+  width: 22.5vw;
+}
+
+.titleright {
+  z-index: 5;
+  position: fixed;
+  top: 47%;
+  right: -100px;
+  transform: rotate(90deg);
+
+  color: white;
+}
+
+.weektop {
+  position: fixed;
+  top: 0;
+  padding-top: 5px;
+  color: black;
+}
+
+a:link {
+  background-color: white;
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  background-color: white;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: dashed;
+  color: dimgray;
+}
+
+a:active {
+  color: dimgray;
+}
+
+.project {
+  display: inline-block;
+  background-color: dimgrey;
+  color: gold;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown_item {
+  display: none;
+  position: absolute;
+  background-color: gainsboro;
+  min-width: 100%;
+  max-height: 100px;
+  overflow-y: scroll;
+}
+
+.dropdown_item a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.dropdown:hover .dropdown_item {
+  display: block;
+}
+
+.highlight {
+  display: inline;
+  background-color: black;
+  color: white;
+}
+
+.table {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.table__cell {
+  position: relative;
+  display: flex;
+  padding: 10px;
+  padding-bottom: 50px;
+  width: 6.25%;
+  align-items: flex-end;
+  justify-content: center;
+  border-right: 1px solid black;
+}
+
+.table__cell_top {
+  vertical-align: top;
+}
+
+.table__cell:nth-child(1) {
+  background-color: gold;
+}
+
+.table__cell:nth-child(2) {
+  background-color: gold;
+}
+
+.table__cell:nth-child(3) {
+  background-color: gold;
+}
+
+.table__cell:nth-child(4) {
+  background-color: gold;
+}
+
+.table__cell:nth-child(5) {
+  background-color: goldenrod;
+}
+
+.table__cell:nth-child(6) {
+  background-color: black;
+}
+
+.table__cell:nth-child(7) {
+  background-color: black;
+}
+
+.table__cell:nth-child(8) {
+  background-color: black;
+}
+
+.table__cell:nth-child(9) {
+  background-color: black;
+}
+
+.table__cell:nth-child(10) {
+  background-color: black;
+}
+
+.table__cell:nth-child(11) {
+  background-color: black;
+}
+
+.table__cell:nth-child(12) {
+  background-color: black;
+}
+
+.table__cell:nth-child(13) {
+  background-color: black;
+}
+
+.table__cell:nth-child(14) {
+  background-color: black;
+}
+
+.table__cell:nth-child(15) {
+  background-color: black;
+}
+
+.table__cell:nth-child(16) {
+  background-color: black;
+}
+
+.table__cell:hover {
+  width: 31.25%;
+}
+
+.table__cell span {
+  opacity: 0;
+  transition: opacity 0ms;
+  transition-delay: 0;
+}
+
+.table__cell:hover span {
+  opacity: 1;
+  transition-delay: 0ms;
+}
