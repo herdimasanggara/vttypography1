@@ -93,7 +93,7 @@ a:active {
 
 .column {
   min-width: 325px;
-  max-height: 500px;
+  max-height: 400px;
   padding: 1rem;
   background-color: gold;
   color: black;
