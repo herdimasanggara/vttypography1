@@ -121,6 +121,18 @@ a:active {
   color: gold;
 }
 
+.columnspringbreak {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 325px;
+  max-height: 500px;
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+  background-color: #e8f48c;
+  color: dimgrey;
+}
+
 /* .shake {
   animation: shake 0.5s;
   animation-iteration-count: infinite;
